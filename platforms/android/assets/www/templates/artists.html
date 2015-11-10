@@ -1,0 +1,19 @@
+<ion-view view-title="Artists">
+    <ion-content class="content">
+        <form class="item-input form" ng-submit="submitForm(userForm.$valid)" name="userForm" novalidate>
+            <input type="text" ng-model="$parent.newArtist" placeholder="New artist..." required />
+            <button type="submit" class="button ion-plus-round custom-add"></button>
+        </form>
+        <ion-list>
+            <ion-item class="item item-checkbox animate-repeat ng-leave" ng-repeat="artist in artists track by $index" ng-swipe-right="deleteItem(artist)">
+                <label class="checkbox checkbox-energized">
+                    <input type="checkbox" ng-model="artist.isChecked" ng-change="setChecked($index)" />
+                </label>
+                <span ng-class="{strike: artist.isChecked}">{{artist.text}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="custom-delete">
+        <button ng-disabled="!isChecked()" ng-click="delete(artist)" class="button button-clear custom-delete">Remove {{deleteAllSelected()}} of {{artists.length}} artists</button>
+    </ion-footer-bar>
+</ion-view>

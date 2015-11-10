@@ -1,0 +1,1268 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 warn package.json ionic-midterm@1.0.0 No repository field.
+5 warn package.json ionic-midterm@1.0.0 No README data
+6 verbose install where, deps [ '/Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-concat',
+6 verbose install     'gulp-minify-css',
+6 verbose install     'gulp-rename',
+6 verbose install     'bower',
+6 verbose install     'gulp-util',
+6 verbose install     'shelljs' ] ]
+7 verbose install where, peers [ '/Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm',
+7 verbose install   [] ]
+8 info preinstall ionic-midterm@1.0.0
+9 silly cache add args [ 'gulp-concat@^2.2.0', null ]
+10 verbose cache add spec gulp-concat@^2.2.0
+11 silly cache add parsed spec { raw: 'gulp-concat@^2.2.0',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'gulp-concat',
+11 silly cache add   rawSpec: '^2.2.0',
+11 silly cache add   spec: '>=2.2.0 <3.0.0',
+11 silly cache add   type: 'range' }
+12 verbose addNamed gulp-concat@>=2.2.0 <3.0.0
+13 silly addNamed semver.valid null
+14 silly addNamed semver.validRange >=2.2.0 <3.0.0
+15 silly addNameRange { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: false }
+16 silly mapToRegistry name gulp-concat
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+20 verbose addNameRange registry:https://registry.npmjs.org/gulp-concat not in flight; fetching
+21 silly cache add args [ 'gulp-minify-css@^0.3.0', null ]
+22 verbose cache add spec gulp-minify-css@^0.3.0
+23 silly cache add parsed spec { raw: 'gulp-minify-css@^0.3.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'gulp-minify-css',
+23 silly cache add   rawSpec: '^0.3.0',
+23 silly cache add   spec: '>=0.3.0 <0.4.0',
+23 silly cache add   type: 'range' }
+24 verbose addNamed gulp-minify-css@>=0.3.0 <0.4.0
+25 silly addNamed semver.valid null
+26 silly addNamed semver.validRange >=0.3.0 <0.4.0
+27 silly addNameRange { name: 'gulp-minify-css',
+27 silly addNameRange   range: '>=0.3.0 <0.4.0',
+27 silly addNameRange   hasData: false }
+28 silly mapToRegistry name gulp-minify-css
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+32 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-css not in flight; fetching
+33 silly cache add args [ 'gulp-rename@^1.2.0', null ]
+34 verbose cache add spec gulp-rename@^1.2.0
+35 silly cache add parsed spec { raw: 'gulp-rename@^1.2.0',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'gulp-rename',
+35 silly cache add   rawSpec: '^1.2.0',
+35 silly cache add   spec: '>=1.2.0 <2.0.0',
+35 silly cache add   type: 'range' }
+36 verbose addNamed gulp-rename@>=1.2.0 <2.0.0
+37 silly addNamed semver.valid null
+38 silly addNamed semver.validRange >=1.2.0 <2.0.0
+39 silly addNameRange { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: false }
+40 silly mapToRegistry name gulp-rename
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+44 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+45 silly cache add args [ 'bower@^1.3.3', null ]
+46 verbose cache add spec bower@^1.3.3
+47 silly cache add parsed spec { raw: 'bower@^1.3.3',
+47 silly cache add   scope: null,
+47 silly cache add   name: 'bower',
+47 silly cache add   rawSpec: '^1.3.3',
+47 silly cache add   spec: '>=1.3.3 <2.0.0',
+47 silly cache add   type: 'range' }
+48 verbose addNamed bower@>=1.3.3 <2.0.0
+49 silly addNamed semver.valid null
+50 silly addNamed semver.validRange >=1.3.3 <2.0.0
+51 silly addNameRange { name: 'bower', range: '>=1.3.3 <2.0.0', hasData: false }
+52 silly mapToRegistry name bower
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/bower
+56 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+57 silly cache add args [ 'gulp-util@^2.2.14', null ]
+58 verbose cache add spec gulp-util@^2.2.14
+59 silly cache add parsed spec { raw: 'gulp-util@^2.2.14',
+59 silly cache add   scope: null,
+59 silly cache add   name: 'gulp-util',
+59 silly cache add   rawSpec: '^2.2.14',
+59 silly cache add   spec: '>=2.2.14 <3.0.0',
+59 silly cache add   type: 'range' }
+60 verbose addNamed gulp-util@>=2.2.14 <3.0.0
+61 silly addNamed semver.valid null
+62 silly addNamed semver.validRange >=2.2.14 <3.0.0
+63 silly addNameRange { name: 'gulp-util', range: '>=2.2.14 <3.0.0', hasData: false }
+64 silly mapToRegistry name gulp-util
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+68 verbose addNameRange registry:https://registry.npmjs.org/gulp-util not in flight; fetching
+69 silly cache add args [ 'shelljs@^0.3.0', null ]
+70 verbose cache add spec shelljs@^0.3.0
+71 silly cache add parsed spec { raw: 'shelljs@^0.3.0',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'shelljs',
+71 silly cache add   rawSpec: '^0.3.0',
+71 silly cache add   spec: '>=0.3.0 <0.4.0',
+71 silly cache add   type: 'range' }
+72 verbose addNamed shelljs@>=0.3.0 <0.4.0
+73 silly addNamed semver.valid null
+74 silly addNamed semver.validRange >=0.3.0 <0.4.0
+75 silly addNameRange { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: false }
+76 silly mapToRegistry name shelljs
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/shelljs
+80 verbose addNameRange registry:https://registry.npmjs.org/shelljs not in flight; fetching
+81 silly cache add args [ 'gulp@^3.5.6', null ]
+82 verbose cache add spec gulp@^3.5.6
+83 silly cache add parsed spec { raw: 'gulp@^3.5.6',
+83 silly cache add   scope: null,
+83 silly cache add   name: 'gulp',
+83 silly cache add   rawSpec: '^3.5.6',
+83 silly cache add   spec: '>=3.5.6 <4.0.0',
+83 silly cache add   type: 'range' }
+84 verbose addNamed gulp@>=3.5.6 <4.0.0
+85 silly addNamed semver.valid null
+86 silly addNamed semver.validRange >=3.5.6 <4.0.0
+87 silly addNameRange { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: false }
+88 silly mapToRegistry name gulp
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/gulp
+92 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+93 silly cache add args [ 'gulp-sass@^2.0.4', null ]
+94 verbose cache add spec gulp-sass@^2.0.4
+95 silly cache add parsed spec { raw: 'gulp-sass@^2.0.4',
+95 silly cache add   scope: null,
+95 silly cache add   name: 'gulp-sass',
+95 silly cache add   rawSpec: '^2.0.4',
+95 silly cache add   spec: '>=2.0.4 <3.0.0',
+95 silly cache add   type: 'range' }
+96 verbose addNamed gulp-sass@>=2.0.4 <3.0.0
+97 silly addNamed semver.valid null
+98 silly addNamed semver.validRange >=2.0.4 <3.0.0
+99 silly addNameRange { name: 'gulp-sass', range: '>=2.0.4 <3.0.0', hasData: false }
+100 silly mapToRegistry name gulp-sass
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+104 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+105 verbose request uri https://registry.npmjs.org/gulp-concat
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 5:56:13 PM
+108 verbose request id 0f59138749e8aa12
+109 http request GET https://registry.npmjs.org/gulp-concat
+110 verbose request uri https://registry.npmjs.org/gulp-minify-css
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 5:56:13 PM
+113 http request GET https://registry.npmjs.org/gulp-minify-css
+114 verbose request uri https://registry.npmjs.org/gulp-rename
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 5:56:13 PM
+117 http request GET https://registry.npmjs.org/gulp-rename
+118 verbose request uri https://registry.npmjs.org/gulp-sass
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 5:56:13 PM
+121 http request GET https://registry.npmjs.org/gulp-sass
+122 verbose request uri https://registry.npmjs.org/gulp-util
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 5:56:13 PM
+125 verbose etag "CGL32FM0XGGWMQD29R3S24TJQ"
+126 http request GET https://registry.npmjs.org/gulp-util
+127 verbose request uri https://registry.npmjs.org/gulp
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 5:56:13 PM
+130 verbose etag "5JSH6CUHJ1YA5ZYE4NPDSGBDA"
+131 http request GET https://registry.npmjs.org/gulp
+132 verbose request uri https://registry.npmjs.org/shelljs
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 5:56:13 PM
+135 verbose etag "2J2SAM5DEZEAK8G3H3PQAYQUV"
+136 http request GET https://registry.npmjs.org/shelljs
+137 verbose request uri https://registry.npmjs.org/bower
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 5:56:13 PM
+140 verbose etag "1UEAMQBQL100C69LQBPTRT1TD"
+141 http request GET https://registry.npmjs.org/bower
+142 http 200 https://registry.npmjs.org/gulp-rename
+143 silly get cb [ 200,
+143 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 silly get     etag: '"E3EISP97SGFYGJNTP7V05MO41"',
+143 silly get     'content-type': 'application/json',
+143 silly get     'cache-control': 'max-age=60',
+143 silly get     'content-length': '13117',
+143 silly get     'accept-ranges': 'bytes',
+143 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+143 silly get     via: '1.1 varnish',
+143 silly get     age: '18',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-served-by': 'cache-jfk1028-JFK',
+143 silly get     'x-cache': 'HIT',
+143 silly get     'x-cache-hits': '2',
+143 silly get     'x-timer': 'S1446242173.741905,VS0,VE0',
+143 silly get     vary: 'Accept' } ]
+144 verbose get saving gulp-rename to /Users/kariball/.npm/registry.npmjs.org/gulp-rename/.cache.json
+145 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: true }
+146 silly addNameRange versions [ 'gulp-rename',
+146 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+147 verbose addNamed gulp-rename@1.2.2
+148 silly addNamed semver.valid 1.2.2
+149 silly addNamed semver.validRange 1.2.2
+150 silly mapToRegistry name gulp-rename
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+154 verbose addRemoteTarball https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz not in flight; adding
+155 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz',
+155 verbose addRemoteTarball   '3ad4428763f05e2764dec1c67d868db275687817' ]
+156 info retry fetch attempt 1 at 5:56:13 PM
+157 info attempt registry request try #1 at 5:56:13 PM
+158 http fetch GET https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+159 http 304 https://registry.npmjs.org/gulp
+160 silly get cb [ 304,
+160 silly get   { date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'cache-control': 'max-age=60',
+160 silly get     etag: '"5JSH6CUHJ1YA5ZYE4NPDSGBDA"',
+160 silly get     age: '10',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-jfk1025-JFK',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '1',
+160 silly get     'x-timer': 'S1446242173.777081,VS0,VE1',
+160 silly get     vary: 'Accept' } ]
+161 verbose etag https://registry.npmjs.org/gulp from cache
+162 verbose get saving gulp to /Users/kariball/.npm/registry.npmjs.org/gulp/.cache.json
+163 silly addNameRange number 2 { name: 'gulp', range: '>=3.5.6 <4.0.0', hasData: true }
+164 silly addNameRange versions [ 'gulp',
+164 silly addNameRange   [ '0.0.1',
+164 silly addNameRange     '0.0.2',
+164 silly addNameRange     '0.0.3',
+164 silly addNameRange     '0.0.4',
+164 silly addNameRange     '0.0.5',
+164 silly addNameRange     '0.0.7',
+164 silly addNameRange     '0.0.8',
+164 silly addNameRange     '0.0.9',
+164 silly addNameRange     '0.1.0',
+164 silly addNameRange     '0.2.0',
+164 silly addNameRange     '1.0.0',
+164 silly addNameRange     '1.1.0',
+164 silly addNameRange     '1.2.0',
+164 silly addNameRange     '1.2.1',
+164 silly addNameRange     '2.0.0',
+164 silly addNameRange     '2.0.1',
+164 silly addNameRange     '2.1.0',
+164 silly addNameRange     '2.2.0',
+164 silly addNameRange     '2.3.0',
+164 silly addNameRange     '2.4.0',
+164 silly addNameRange     '2.4.1',
+164 silly addNameRange     '2.6.0',
+164 silly addNameRange     '2.6.1',
+164 silly addNameRange     '2.7.0',
+164 silly addNameRange     '3.0.0',
+164 silly addNameRange     '3.1.1',
+164 silly addNameRange     '3.1.2',
+164 silly addNameRange     '3.1.3',
+164 silly addNameRange     '3.1.4',
+164 silly addNameRange     '3.2.0',
+164 silly addNameRange     '3.2.1',
+164 silly addNameRange     '3.2.2',
+164 silly addNameRange     '3.2.3',
+164 silly addNameRange     '3.2.4',
+164 silly addNameRange     '3.2.5',
+164 silly addNameRange     '3.3.0',
+164 silly addNameRange     '3.3.1',
+164 silly addNameRange     '3.3.2',
+164 silly addNameRange     '3.3.4',
+164 silly addNameRange     '3.4.0',
+164 silly addNameRange     '3.5.0',
+164 silly addNameRange     '3.5.1',
+164 silly addNameRange     '3.5.2',
+164 silly addNameRange     '3.5.5',
+164 silly addNameRange     '3.5.6',
+164 silly addNameRange     '3.6.0',
+164 silly addNameRange     '3.6.1',
+164 silly addNameRange     '3.6.2',
+164 silly addNameRange     '3.7.0',
+164 silly addNameRange     '3.8.0',
+164 silly addNameRange     '3.8.1',
+164 silly addNameRange     '3.8.2',
+164 silly addNameRange     '3.8.3',
+164 silly addNameRange     '3.8.4',
+164 silly addNameRange     '3.8.5',
+164 silly addNameRange     '3.8.6',
+164 silly addNameRange     '3.8.7',
+164 silly addNameRange     '3.8.8',
+164 silly addNameRange     '3.8.9',
+164 silly addNameRange     '3.8.10',
+164 silly addNameRange     '3.8.11',
+164 silly addNameRange     '3.9.0' ] ]
+165 verbose addNamed gulp@3.9.0
+166 silly addNamed semver.valid 3.9.0
+167 silly addNamed semver.validRange 3.9.0
+168 http 200 https://registry.npmjs.org/gulp-concat
+169 silly get cb [ 200,
+169 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+169 silly get     etag: '"D347SVSPQS982NZBOTTCJ73JP"',
+169 silly get     'content-type': 'application/json',
+169 silly get     'cache-control': 'max-age=60',
+169 silly get     'content-length': '37869',
+169 silly get     'accept-ranges': 'bytes',
+169 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+169 silly get     via: '1.1 varnish',
+169 silly get     age: '55',
+169 silly get     connection: 'keep-alive',
+169 silly get     'x-served-by': 'cache-jfk1025-JFK',
+169 silly get     'x-cache': 'HIT',
+169 silly get     'x-cache-hits': '1',
+169 silly get     'x-timer': 'S1446242173.749612,VS0,VE1',
+169 silly get     vary: 'Accept' } ]
+170 verbose get saving gulp-concat to /Users/kariball/.npm/registry.npmjs.org/gulp-concat/.cache.json
+171 http 304 https://registry.npmjs.org/gulp-util
+172 silly get cb [ 304,
+172 silly get   { date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+172 silly get     via: '1.1 varnish',
+172 silly get     'cache-control': 'max-age=60',
+172 silly get     etag: '"CGL32FM0XGGWMQD29R3S24TJQ"',
+172 silly get     age: '10',
+172 silly get     connection: 'keep-alive',
+172 silly get     'x-served-by': 'cache-jfk1027-JFK',
+172 silly get     'x-cache': 'HIT',
+172 silly get     'x-cache-hits': '1',
+172 silly get     'x-timer': 'S1446242173.785971,VS0,VE1',
+172 silly get     vary: 'Accept' } ]
+173 verbose etag https://registry.npmjs.org/gulp-util from cache
+174 verbose get saving gulp-util to /Users/kariball/.npm/registry.npmjs.org/gulp-util/.cache.json
+175 silly cache afterAdd gulp@3.9.0
+176 verbose afterAdd /Users/kariball/.npm/gulp/3.9.0/package/package.json not in flight; writing
+177 silly addNameRange number 2 { name: 'gulp-util', range: '>=2.2.14 <3.0.0', hasData: true }
+178 silly addNameRange versions [ 'gulp-util',
+178 silly addNameRange   [ '0.0.1',
+178 silly addNameRange     '1.0.0',
+178 silly addNameRange     '1.1.0',
+178 silly addNameRange     '1.1.1',
+178 silly addNameRange     '1.2.0',
+178 silly addNameRange     '1.3.0',
+178 silly addNameRange     '2.0.0',
+178 silly addNameRange     '2.1.1',
+178 silly addNameRange     '2.1.2',
+178 silly addNameRange     '2.1.3',
+178 silly addNameRange     '2.1.4',
+178 silly addNameRange     '2.2.0',
+178 silly addNameRange     '2.2.1',
+178 silly addNameRange     '2.2.2',
+178 silly addNameRange     '2.2.3',
+178 silly addNameRange     '2.2.5',
+178 silly addNameRange     '2.2.6',
+178 silly addNameRange     '2.2.7',
+178 silly addNameRange     '2.2.8',
+178 silly addNameRange     '2.2.9',
+178 silly addNameRange     '2.2.10',
+178 silly addNameRange     '2.2.11',
+178 silly addNameRange     '2.2.12',
+178 silly addNameRange     '2.2.13',
+178 silly addNameRange     '2.2.14',
+178 silly addNameRange     '2.2.15',
+178 silly addNameRange     '2.2.16',
+178 silly addNameRange     '2.2.17',
+178 silly addNameRange     '2.2.18',
+178 silly addNameRange     '2.2.19',
+178 silly addNameRange     '2.2.20',
+178 silly addNameRange     '3.0.0',
+178 silly addNameRange     '3.0.1',
+178 silly addNameRange     '3.0.2',
+178 silly addNameRange     '3.0.3',
+178 silly addNameRange     '3.0.4',
+178 silly addNameRange     '3.0.5',
+178 silly addNameRange     '3.0.6',
+178 silly addNameRange     '3.0.7' ] ]
+179 verbose addNamed gulp-util@2.2.20
+180 silly addNamed semver.valid 2.2.20
+181 silly addNamed semver.validRange 2.2.20
+182 silly addNameRange number 2 { name: 'gulp-concat', range: '>=2.2.0 <3.0.0', hasData: true }
+183 silly addNameRange versions [ 'gulp-concat',
+183 silly addNameRange   [ '0.0.1',
+183 silly addNameRange     '1.0.0',
+183 silly addNameRange     '1.1.0',
+183 silly addNameRange     '2.0.0',
+183 silly addNameRange     '2.1.0',
+183 silly addNameRange     '2.1.1',
+183 silly addNameRange     '2.1.2',
+183 silly addNameRange     '2.1.3',
+183 silly addNameRange     '2.1.4',
+183 silly addNameRange     '2.1.5',
+183 silly addNameRange     '2.1.6',
+183 silly addNameRange     '2.1.7',
+183 silly addNameRange     '2.2.0',
+183 silly addNameRange     '2.3.0',
+183 silly addNameRange     '2.3.3',
+183 silly addNameRange     '2.3.4',
+183 silly addNameRange     '2.3.5',
+183 silly addNameRange     '2.4.0',
+183 silly addNameRange     '2.4.1',
+183 silly addNameRange     '2.4.2',
+183 silly addNameRange     '2.4.3',
+183 silly addNameRange     '2.5.0',
+183 silly addNameRange     '2.5.1',
+183 silly addNameRange     '2.5.2',
+183 silly addNameRange     '2.6.0' ] ]
+184 verbose addNamed gulp-concat@2.6.0
+185 silly addNamed semver.valid 2.6.0
+186 silly addNamed semver.validRange 2.6.0
+187 silly mapToRegistry name gulp-util
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+191 verbose addRemoteTarball https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz not in flight; adding
+192 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz',
+192 verbose addRemoteTarball   'd7146e5728910bd8f047a6b0b1e549bc22dbd64c' ]
+193 silly mapToRegistry name gulp-concat
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+197 verbose addRemoteTarball https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz not in flight; adding
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz',
+198 verbose addRemoteTarball   '585cfb115411f348773131140566b6a81c69cb91' ]
+199 verbose afterAdd /Users/kariball/.npm/gulp/3.9.0/package/package.json written
+200 info retry fetch attempt 1 at 5:56:13 PM
+201 info attempt registry request try #1 at 5:56:13 PM
+202 http fetch GET https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz
+203 info retry fetch attempt 1 at 5:56:13 PM
+204 info attempt registry request try #1 at 5:56:13 PM
+205 http fetch GET https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz
+206 http 200 https://registry.npmjs.org/gulp-minify-css
+207 silly get cb [ 200,
+207 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+207 silly get     etag: '"BOF2GNPRLUCA06NZOBL800253"',
+207 silly get     'content-type': 'application/json',
+207 silly get     'cache-control': 'max-age=60',
+207 silly get     'content-length': '61423',
+207 silly get     'accept-ranges': 'bytes',
+207 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+207 silly get     via: '1.1 varnish',
+207 silly get     age: '44',
+207 silly get     connection: 'keep-alive',
+207 silly get     'x-served-by': 'cache-jfk1024-JFK',
+207 silly get     'x-cache': 'HIT',
+207 silly get     'x-cache-hits': '1',
+207 silly get     'x-timer': 'S1446242173.746309,VS0,VE0',
+207 silly get     vary: 'Accept' } ]
+208 verbose get saving gulp-minify-css to /Users/kariball/.npm/registry.npmjs.org/gulp-minify-css/.cache.json
+209 http 200 https://registry.npmjs.org/gulp-sass
+210 silly get cb [ 200,
+210 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+210 silly get     etag: '"AC26ZX2VFBOMWHVVJPLO197K1"',
+210 silly get     'content-type': 'application/json',
+210 silly get     'cache-control': 'max-age=60',
+210 silly get     'content-length': '43095',
+210 silly get     'accept-ranges': 'bytes',
+210 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+210 silly get     via: '1.1 varnish',
+210 silly get     age: '44',
+210 silly get     connection: 'keep-alive',
+210 silly get     'x-served-by': 'cache-jfk1034-JFK',
+210 silly get     'x-cache': 'HIT',
+210 silly get     'x-cache-hits': '1',
+210 silly get     'x-timer': 'S1446242173.748302,VS0,VE0',
+210 silly get     vary: 'Accept' } ]
+211 verbose get saving gulp-sass to /Users/kariball/.npm/registry.npmjs.org/gulp-sass/.cache.json
+212 silly addNameRange number 2 { name: 'gulp-sass', range: '>=2.0.4 <3.0.0', hasData: true }
+213 silly addNameRange versions [ 'gulp-sass',
+213 silly addNameRange   [ '0.1.0',
+213 silly addNameRange     '0.2.1',
+213 silly addNameRange     '0.2.2',
+213 silly addNameRange     '0.2.3',
+213 silly addNameRange     '0.3.0',
+213 silly addNameRange     '0.4.0',
+213 silly addNameRange     '0.4.1',
+213 silly addNameRange     '0.5.0',
+213 silly addNameRange     '0.5.1',
+213 silly addNameRange     '0.5.2',
+213 silly addNameRange     '0.6.0',
+213 silly addNameRange     '0.7.0',
+213 silly addNameRange     '0.7.1',
+213 silly addNameRange     '0.7.2',
+213 silly addNameRange     '0.7.3',
+213 silly addNameRange     '1.0.0',
+213 silly addNameRange     '1.1.0',
+213 silly addNameRange     '1.2.0',
+213 silly addNameRange     '1.2.1',
+213 silly addNameRange     '1.2.2',
+213 silly addNameRange     '1.2.3',
+213 silly addNameRange     '1.2.4',
+213 silly addNameRange     '1.3.0',
+213 silly addNameRange     '1.3.1',
+213 silly addNameRange     '1.3.2',
+213 silly addNameRange     '1.3.3',
+213 silly addNameRange     '2.0.0-alpha.1',
+213 silly addNameRange     '2.0.0',
+213 silly addNameRange     '2.0.2',
+213 silly addNameRange     '2.0.3',
+213 silly addNameRange     '2.0.4',
+213 silly addNameRange     '2.1.0-beta',
+213 silly addNameRange     '2.1.0' ] ]
+214 verbose addNamed gulp-sass@2.1.0
+215 silly addNamed semver.valid 2.1.0
+216 silly addNamed semver.validRange 2.1.0
+217 silly addNameRange number 2 { name: 'gulp-minify-css',
+217 silly addNameRange   range: '>=0.3.0 <0.4.0',
+217 silly addNameRange   hasData: true }
+218 silly addNameRange versions [ 'gulp-minify-css',
+218 silly addNameRange   [ '0.0.1',
+218 silly addNameRange     '0.1.0',
+218 silly addNameRange     '0.2.0',
+218 silly addNameRange     '0.3.0',
+218 silly addNameRange     '0.3.1',
+218 silly addNameRange     '0.3.2',
+218 silly addNameRange     '0.3.3',
+218 silly addNameRange     '0.3.4',
+218 silly addNameRange     '0.3.5',
+218 silly addNameRange     '0.3.6',
+218 silly addNameRange     '0.3.7',
+218 silly addNameRange     '0.3.8',
+218 silly addNameRange     '0.3.9',
+218 silly addNameRange     '0.3.10',
+218 silly addNameRange     '0.3.11',
+218 silly addNameRange     '0.3.12',
+218 silly addNameRange     '0.3.13',
+218 silly addNameRange     '0.4.0',
+218 silly addNameRange     '0.4.1',
+218 silly addNameRange     '0.4.2',
+218 silly addNameRange     '0.4.3',
+218 silly addNameRange     '0.4.4',
+218 silly addNameRange     '0.4.5',
+218 silly addNameRange     '0.4.6',
+218 silly addNameRange     '0.5.0',
+218 silly addNameRange     '0.5.1',
+218 silly addNameRange     '1.0.0',
+218 silly addNameRange     '1.1.0',
+218 silly addNameRange     '1.1.1',
+218 silly addNameRange     '1.1.2',
+218 silly addNameRange     '1.1.2-1',
+218 silly addNameRange     '1.1.3',
+218 silly addNameRange     '1.1.4',
+218 silly addNameRange     '1.1.5',
+218 silly addNameRange     '1.1.6',
+218 silly addNameRange     '1.2.0',
+218 silly addNameRange     '1.2.1' ] ]
+219 verbose addNamed gulp-minify-css@0.3.13
+220 silly addNamed semver.valid 0.3.13
+221 silly addNamed semver.validRange 0.3.13
+222 silly mapToRegistry name gulp-sass
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+226 verbose addRemoteTarball https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz not in flight; adding
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz',
+227 verbose addRemoteTarball   '2587bc535d8b508bc10f4e2cf35f01185737d80b' ]
+228 silly mapToRegistry name gulp-minify-css
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+232 verbose addRemoteTarball https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz not in flight; adding
+233 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz',
+233 verbose addRemoteTarball   'ba813c665422868305383ccd185f239c1e35209b' ]
+234 info retry fetch attempt 1 at 5:56:13 PM
+235 info attempt registry request try #1 at 5:56:13 PM
+236 http fetch GET https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz
+237 info retry fetch attempt 1 at 5:56:13 PM
+238 info attempt registry request try #1 at 5:56:13 PM
+239 http fetch GET https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz
+240 http 200 https://registry.npmjs.org/shelljs
+241 silly get cb [ 200,
+241 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+241 silly get     etag: '"D02Q4E383LM02OEV9ICZ0QYXU"',
+241 silly get     'content-type': 'application/json',
+241 silly get     'cache-control': 'max-age=60',
+241 silly get     'content-length': '53546',
+241 silly get     'accept-ranges': 'bytes',
+241 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+241 silly get     via: '1.1 varnish',
+241 silly get     age: '43',
+241 silly get     connection: 'keep-alive',
+241 silly get     'x-served-by': 'cache-jfk1025-JFK',
+241 silly get     'x-cache': 'HIT',
+241 silly get     'x-cache-hits': '3',
+241 silly get     'x-timer': 'S1446242173.788960,VS0,VE0',
+241 silly get     vary: 'Accept' } ]
+242 verbose get saving shelljs to /Users/kariball/.npm/registry.npmjs.org/shelljs/.cache.json
+243 silly addNameRange number 2 { name: 'shelljs', range: '>=0.3.0 <0.4.0', hasData: true }
+244 silly addNameRange versions [ 'shelljs',
+244 silly addNameRange   [ '0.0.1',
+244 silly addNameRange     '0.0.2',
+244 silly addNameRange     '0.0.3',
+244 silly addNameRange     '0.0.4',
+244 silly addNameRange     '0.0.5',
+244 silly addNameRange     '0.0.6',
+244 silly addNameRange     '0.0.7',
+244 silly addNameRange     '0.0.8',
+244 silly addNameRange     '0.0.9',
+244 silly addNameRange     '0.1.0',
+244 silly addNameRange     '0.1.1',
+244 silly addNameRange     '0.1.2',
+244 silly addNameRange     '0.1.3',
+244 silly addNameRange     '0.1.4',
+244 silly addNameRange     '0.2.0',
+244 silly addNameRange     '0.2.1',
+244 silly addNameRange     '0.2.2',
+244 silly addNameRange     '0.2.3',
+244 silly addNameRange     '0.2.4',
+244 silly addNameRange     '0.2.5',
+244 silly addNameRange     '0.2.6',
+244 silly addNameRange     '0.3.0',
+244 silly addNameRange     '0.4.0',
+244 silly addNameRange     '0.5.0',
+244 silly addNameRange     '0.5.1',
+244 silly addNameRange     '0.5.2',
+244 silly addNameRange     '0.5.3',
+244 silly addNameRange     '0.0.1-alpha1',
+244 silly addNameRange     '0.0.2-pre1',
+244 silly addNameRange     '0.0.4-pre1',
+244 silly addNameRange     '0.0.5-pre1',
+244 silly addNameRange     '0.0.5-pre2',
+244 silly addNameRange     '0.0.5-pre3',
+244 silly addNameRange     '0.0.5-pre4',
+244 silly addNameRange     '0.0.6-pre1',
+244 silly addNameRange     '0.0.6-pre2' ] ]
+245 verbose addNamed shelljs@0.3.0
+246 silly addNamed semver.valid 0.3.0
+247 silly addNamed semver.validRange 0.3.0
+248 silly cache afterAdd shelljs@0.3.0
+249 verbose afterAdd /Users/kariball/.npm/shelljs/0.3.0/package/package.json not in flight; writing
+250 verbose afterAdd /Users/kariball/.npm/shelljs/0.3.0/package/package.json written
+251 http 200 https://registry.npmjs.org/bower
+252 silly get cb [ 200,
+252 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+252 silly get     etag: '"3ZUPOLDSWABRES6Y64U5T4P7P"',
+252 silly get     'content-type': 'application/json',
+252 silly get     'cache-control': 'max-age=60',
+252 silly get     'content-length': '136222',
+252 silly get     'accept-ranges': 'bytes',
+252 silly get     date: 'Fri, 30 Oct 2015 21:56:13 GMT',
+252 silly get     via: '1.1 varnish',
+252 silly get     age: '18',
+252 silly get     connection: 'keep-alive',
+252 silly get     'x-served-by': 'cache-jfk1031-JFK',
+252 silly get     'x-cache': 'HIT',
+252 silly get     'x-cache-hits': '1',
+252 silly get     'x-timer': 'S1446242173.786432,VS0,VE1',
+252 silly get     vary: 'Accept' } ]
+253 verbose get saving bower to /Users/kariball/.npm/registry.npmjs.org/bower/.cache.json
+254 http fetch 200 https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz
+255 silly fetchAndShaCheck shasum 3ad4428763f05e2764dec1c67d868db275687817
+256 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz not in flight; adding
+257 verbose addTmpTarball already have metadata; skipping unpack for gulp-rename@1.2.2
+258 silly addNameRange number 2 { name: 'bower', range: '>=1.3.3 <2.0.0', hasData: true }
+259 silly addNameRange versions [ 'bower',
+259 silly addNameRange   [ '0.1.0',
+259 silly addNameRange     '0.1.2',
+259 silly addNameRange     '0.1.3',
+259 silly addNameRange     '0.2.0',
+259 silly addNameRange     '0.3.0',
+259 silly addNameRange     '0.3.1',
+259 silly addNameRange     '0.3.2',
+259 silly addNameRange     '0.4.0',
+259 silly addNameRange     '0.5.0',
+259 silly addNameRange     '0.5.1',
+259 silly addNameRange     '0.6.0',
+259 silly addNameRange     '0.6.1',
+259 silly addNameRange     '0.6.2',
+259 silly addNameRange     '0.6.3',
+259 silly addNameRange     '0.6.4',
+259 silly addNameRange     '0.6.5',
+259 silly addNameRange     '0.6.6',
+259 silly addNameRange     '0.6.7',
+259 silly addNameRange     '0.6.8',
+259 silly addNameRange     '0.7.0',
+259 silly addNameRange     '0.7.1',
+259 silly addNameRange     '0.8.0',
+259 silly addNameRange     '0.8.1',
+259 silly addNameRange     '0.8.2',
+259 silly addNameRange     '0.8.3',
+259 silly addNameRange     '0.8.4',
+259 silly addNameRange     '0.8.5',
+259 silly addNameRange     '0.8.6',
+259 silly addNameRange     '0.9.0',
+259 silly addNameRange     '0.9.1',
+259 silly addNameRange     '0.9.2',
+259 silly addNameRange     '0.10.0',
+259 silly addNameRange     '1.0.0',
+259 silly addNameRange     '1.0.1',
+259 silly addNameRange     '1.0.2',
+259 silly addNameRange     '1.0.3',
+259 silly addNameRange     '1.1.0',
+259 silly addNameRange     '1.1.1',
+259 silly addNameRange     '1.1.2',
+259 silly addNameRange     '1.2.0',
+259 silly addNameRange     '1.2.1',
+259 silly addNameRange     '1.2.2',
+259 silly addNameRange     '1.2.3',
+259 silly addNameRange     '1.2.4',
+259 silly addNameRange     '1.2.5',
+259 silly addNameRange     '1.2.6',
+259 silly addNameRange     '1.2.7',
+259 silly addNameRange     '1.2.8',
+259 silly addNameRange     '1.3.0',
+259 silly addNameRange     '1.3.1',
+259 silly addNameRange     '1.3.2',
+259 silly addNameRange     '1.3.3',
+259 silly addNameRange     '1.3.4',
+259 silly addNameRange     '1.3.5',
+259 silly addNameRange     '1.3.6',
+259 silly addNameRange     '1.3.7',
+259 silly addNameRange     '1.3.8',
+259 silly addNameRange     '1.3.9',
+259 silly addNameRange     '1.3.10',
+259 silly addNameRange     '1.3.11',
+259 silly addNameRange     '1.3.12',
+259 silly addNameRange     '1.4.0',
+259 silly addNameRange     '1.4.1',
+259 silly addNameRange     '1.5.0',
+259 silly addNameRange     '1.5.1',
+259 silly addNameRange     '1.5.2',
+259 silly addNameRange     '1.5.3',
+259 silly addNameRange     '1.6.2',
+259 silly addNameRange     '1.6.3',
+259 silly addNameRange     '1.6.4',
+259 silly addNameRange     '1.6.5' ] ]
+260 verbose addNamed bower@1.6.5
+261 silly addNamed semver.valid 1.6.5
+262 silly addNamed semver.validRange 1.6.5
+263 silly mapToRegistry name bower
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry https://registry.npmjs.org/
+266 silly mapToRegistry uri https://registry.npmjs.org/bower
+267 verbose addRemoteTarball https://registry.npmjs.org/bower/-/bower-1.6.5.tgz not in flight; adding
+268 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.6.5.tgz',
+268 verbose addRemoteTarball   '59d457122a161e42cc1625bbab8179c214b7ac11' ]
+269 info retry fetch attempt 1 at 5:56:13 PM
+270 info attempt registry request try #1 at 5:56:13 PM
+271 http fetch GET https://registry.npmjs.org/bower/-/bower-1.6.5.tgz
+272 silly cache afterAdd gulp-rename@1.2.2
+273 verbose afterAdd /Users/kariball/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+274 verbose afterAdd /Users/kariball/.npm/gulp-rename/1.2.2/package/package.json written
+275 http fetch 200 https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz
+276 silly fetchAndShaCheck shasum d7146e5728910bd8f047a6b0b1e549bc22dbd64c
+277 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz not in flight; adding
+278 verbose addTmpTarball already have metadata; skipping unpack for gulp-util@2.2.20
+279 http fetch 200 https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz
+280 http fetch 200 https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz
+281 silly cache afterAdd gulp-util@2.2.20
+282 verbose afterAdd /Users/kariball/.npm/gulp-util/2.2.20/package/package.json not in flight; writing
+283 silly fetchAndShaCheck shasum 2587bc535d8b508bc10f4e2cf35f01185737d80b
+284 silly fetchAndShaCheck shasum 585cfb115411f348773131140566b6a81c69cb91
+285 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz not in flight; adding
+286 verbose addTmpTarball already have metadata; skipping unpack for gulp-sass@2.1.0
+287 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz not in flight; adding
+288 verbose addTmpTarball already have metadata; skipping unpack for gulp-concat@2.6.0
+289 verbose afterAdd /Users/kariball/.npm/gulp-util/2.2.20/package/package.json written
+290 http fetch 200 https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz
+291 silly cache afterAdd gulp-sass@2.1.0
+292 verbose afterAdd /Users/kariball/.npm/gulp-sass/2.1.0/package/package.json not in flight; writing
+293 silly cache afterAdd gulp-concat@2.6.0
+294 verbose afterAdd /Users/kariball/.npm/gulp-concat/2.6.0/package/package.json not in flight; writing
+295 silly fetchAndShaCheck shasum ba813c665422868305383ccd185f239c1e35209b
+296 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz not in flight; adding
+297 verbose addTmpTarball already have metadata; skipping unpack for gulp-minify-css@0.3.13
+298 verbose afterAdd /Users/kariball/.npm/gulp-sass/2.1.0/package/package.json written
+299 verbose afterAdd /Users/kariball/.npm/gulp-concat/2.6.0/package/package.json written
+300 silly cache afterAdd gulp-minify-css@0.3.13
+301 verbose afterAdd /Users/kariball/.npm/gulp-minify-css/0.3.13/package/package.json not in flight; writing
+302 verbose afterAdd /Users/kariball/.npm/gulp-minify-css/0.3.13/package/package.json written
+303 http fetch 200 https://registry.npmjs.org/bower/-/bower-1.6.5.tgz
+304 silly fetchAndShaCheck shasum 59d457122a161e42cc1625bbab8179c214b7ac11
+305 verbose addTmpTarball /var/folders/2y/vb2dt6s948s_c28wqdv385bm0000gn/T/npm-676-c02071d2/registry.npmjs.org/bower/-/bower-1.6.5.tgz not in flight; adding
+306 verbose addTmpTarball already have metadata; skipping unpack for bower@1.6.5
+307 silly cache afterAdd bower@1.6.5
+308 verbose afterAdd /Users/kariball/.npm/bower/1.6.5/package/package.json not in flight; writing
+309 verbose afterAdd /Users/kariball/.npm/bower/1.6.5/package/package.json written
+310 silly install resolved [ { name: 'gulp',
+310 silly install resolved     description: 'The streaming build system',
+310 silly install resolved     version: '3.9.0',
+310 silly install resolved     homepage: 'http://gulpjs.com',
+310 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+310 silly install resolved     author:
+310 silly install resolved      { name: 'Fractal',
+310 silly install resolved        email: 'contact@wearefractal.com',
+310 silly install resolved        url: 'http://wearefractal.com/' },
+310 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+310 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+310 silly install resolved     bin: { gulp: './bin/gulp.js' },
+310 silly install resolved     man: [ 'gulp.1' ],
+310 silly install resolved     dependencies:
+310 silly install resolved      { archy: '^1.0.0',
+310 silly install resolved        chalk: '^1.0.0',
+310 silly install resolved        deprecated: '^0.0.1',
+310 silly install resolved        'gulp-util': '^3.0.0',
+310 silly install resolved        interpret: '^0.6.2',
+310 silly install resolved        liftoff: '^2.1.0',
+310 silly install resolved        minimist: '^1.1.0',
+310 silly install resolved        orchestrator: '^0.3.0',
+310 silly install resolved        'pretty-hrtime': '^1.0.0',
+310 silly install resolved        semver: '^4.1.0',
+310 silly install resolved        tildify: '^1.0.0',
+310 silly install resolved        v8flags: '^2.0.2',
+310 silly install resolved        'vinyl-fs': '^0.3.0' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { coveralls: '^2.7.0',
+310 silly install resolved        'graceful-fs': '^3.0.0',
+310 silly install resolved        istanbul: '^0.3.0',
+310 silly install resolved        jscs: '~1.12.0',
+310 silly install resolved        jshint: '^2.5.0',
+310 silly install resolved        'jshint-stylish': '^1.0.0',
+310 silly install resolved        'marked-man': '^0.1.3',
+310 silly install resolved        mkdirp: '^0.5.0',
+310 silly install resolved        mocha: '^2.0.1',
+310 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+310 silly install resolved        q: '^1.0.0',
+310 silly install resolved        rimraf: '^2.2.5',
+310 silly install resolved        should: '^5.0.1' },
+310 silly install resolved     scripts:
+310 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+310 silly install resolved        lint: 'jshint lib bin test index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules && jscs lib bin test index.js',
+310 silly install resolved        test: 'npm run-script lint && mocha --reporter spec',
+310 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+310 silly install resolved     engines: { node: '>= 0.9' },
+310 silly install resolved     license: 'MIT',
+310 silly install resolved     gitHead: '657213a52d5e9c19b85df6a42f76341a98c08ae8',
+310 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+310 silly install resolved     _id: 'gulp@3.9.0',
+310 silly install resolved     _shasum: 'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a',
+310 silly install resolved     _from: 'gulp@>=3.5.6 <4.0.0',
+310 silly install resolved     _npmVersion: '2.8.3',
+310 silly install resolved     _nodeVersion: '0.10.36',
+310 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+310 silly install resolved     maintainers: [ [Object], [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: 'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz',
+310 silly install resolved     readme: 'ERROR: No README data found!' },
+310 silly install resolved   { name: 'shelljs',
+310 silly install resolved     version: '0.3.0',
+310 silly install resolved     author: { name: 'Artur Adib', email: 'aadib@mozilla.com' },
+310 silly install resolved     description: 'Portable Unix shell commands for Node.js',
+310 silly install resolved     keywords: [ 'unix', 'shell', 'makefile', 'make', 'jake', 'synchronous' ],
+310 silly install resolved     repository: { type: 'git', url: 'git://github.com/arturadib/shelljs.git' },
+310 silly install resolved     license: 'BSD*',
+310 silly install resolved     homepage: 'http://github.com/arturadib/shelljs',
+310 silly install resolved     main: './shell.js',
+310 silly install resolved     scripts: { test: 'node scripts/run-tests' },
+310 silly install resolved     bin: { shjs: './bin/shjs' },
+310 silly install resolved     dependencies: {},
+310 silly install resolved     devDependencies: { jshint: '~2.1.11' },
+310 silly install resolved     optionalDependencies: {},
+310 silly install resolved     engines: { node: '>=0.8.0' },
+310 silly install resolved     readme: '# ShellJS - Unix shell commands for Node.js [![Build Status](https://secure.travis-ci.org/arturadib/shelljs.png)](http://travis-ci.org/arturadib/shelljs)\n\nShellJS is a portable **(Windows/Linux/OS X)** implementation of Unix shell commands on top of the Node.js API. You can use it to eliminate your shell script\'s dependency on Unix while still keeping its familiar and powerful commands. You can also install it globally so you can run it from outside Node projects - say goodbye to those gnarly Bash scripts!\n\nThe project is [unit-tested](http://travis-ci.org/arturadib/shelljs) and battled-tested in projects like:\n\n+ [PDF.js](http://github.com/mozilla/pdf.js) - Firefox\'s next-gen PDF reader\n+ [Firebug](http://getfirebug.com/) - Firefox\'s infamous debugger\n+ [JSHint](http://jshint.com) - Most popular JavaScript linter\n+ [Zepto](http://zeptojs.com) - jQuery-compatible JavaScript library for modern browsers\n+ [Yeoman](http://yeoman.io/) - Web application stack and development tool\n+ [Deployd.com](http://deployd.com) - Open source PaaS for quick API backend generation\n\nand [many more](https://npmjs.org/browse/depended/shelljs).\n\n## Installing\n\nVia npm:\n\n```bash\n$ npm install [-g] shelljs\n```\n\nIf the global option `-g` is specified, the binary `shjs` will be installed. This makes it possible to\nrun ShellJS scripts much like any shell script from the command line, i.e. without requiring a `node_modules` folder:\n\n```bash\n$ shjs my_script\n```\n\nYou can also just copy `shell.js` into your project\'s directory, and `require()` accordingly.\n\n\n## Examples\n\n### JavaScript\n\n```javascript\nrequire(\'shelljs/global\');\n\nif (!which(\'git\')) {\n  echo(\'Sorry, this script requires git\');\n  exit(1);\n}\n\n// Copy files to release dir\nmkdir(\'-p\', \'out/Release\');\ncp(\'-R\', \'stuff/*\', \'out/Release\');\n\n// Replace macros in each .js file\ncd(\'lib\');\nls(\'*.js\').forEach(function(file) {\n  sed(\'-i\', \'BUILD_VERSION\', \'v0.1.2\', file);\n  sed(\'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file);\n  sed(\'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat(\'macro.js\'), file);\n});\ncd(\'..\');\n\n// Run external tool synchronously\nif (exec(\'git commit -am "Auto-commit"\').code !== 0) {\n  echo(\'Error: Git commit failed\');\n  exit(1);\n}\n```\n\n### CoffeeScript\n\n```coffeescript\nrequire \'shelljs/global\'\n\nif not which \'git\'\n  echo \'Sorry, this script requires git\'\n  exit 1\n\n# Copy files to release dir\nmkdir \'-p\', \'out/Release\'\ncp \'-R\', \'stuff/*\', \'out/Release\'\n\n# Replace macros in each .js file\ncd \'lib\'\nfor file in ls \'*.js\'\n  sed \'-i\', \'BUILD_VERSION\', \'v0.1.2\', file\n  sed \'-i\', /.*REMOVE_THIS_LINE.*\\n/, \'\', file\n  sed \'-i\', /.*REPLACE_LINE_WITH_MACRO.*\\n/, cat \'macro.js\', file\ncd \'..\'\n\n# Run external tool synchronously\nif (exec \'git commit -am "Auto-commit"\').code != 0\n  echo \'Error: Git commit failed\'\n  exit 1\n```\n\n## Global vs. Local\n\nThe example above uses the convenience script `shelljs/global` to reduce verbosity. If polluting your global namespace is not desirable, simply require `shelljs`.\n\nExample:\n\n```javascript\nvar shell = require(\'shelljs\');\nshell.echo(\'hello world\');\n```\n\n## Make tool\n\nA convenience script `shelljs/make` is also provided to mimic the behavior of a Unix Makefile. In this case all shell objects are global, and command line arguments will cause the script to execute only the corresponding function in the global `target` object. To avoid redundant calls, target functions are executed only once per script.\n\nExample (CoffeeScript):\n\n```coffeescript\nrequire \'shelljs/make\'\n\ntarget.all = ->\n  target.bundle()\n  target.docs()\n\ntarget.bundle = ->\n  cd __dirname\n  mkdir \'build\'\n  cd \'lib\'\n  (cat \'*.js\').to \'../build/output.js\'\n\ntarget.docs = ->\n  cd __dirname\n  mkdir \'docs\'\n  cd \'lib\'\n  for file in ls \'*.js\'\n    text = grep \'//@\', file     # extract special comments\n    text.replace \'//@\', \'\'      # remove comment tags\n    text.to \'docs/my_docs.md\'\n```\n\nTo run the target `all`, call the above script without arguments: `$ node make`. To run the target `docs`: `$ node make docs`, and so on.\n\n\n\n<!-- \n\n  DO NOT MODIFY BEYOND THIS POINT - IT\'S AUTOMATICALLY GENERATED\n\n-->\n\n\n## Command reference\n\n\nAll commands run synchronously, unless otherwise stated.\n\n\n### cd(\'dir\')\nChanges to directory `dir` for the duration of the script\n\n\n### pwd()\nReturns the current directory.\n\n\n### ls([options ,] path [,path ...])\n### ls([options ,] path_array)\nAvailable options:\n\n+ `-R`: recursive\n+ `-A`: all files (include files beginning with `.`, except for `.` and `..`)\n\nExamples:\n\n```javascript\nls(\'projs/*.js\');\nls(\'-R\', \'/users/me\', \'/tmp\');\nls(\'-R\', [\'/users/me\', \'/tmp\']); // same as above\n```\n\nReturns array of files in the given path, or in current directory if no path provided.\n\n\n### find(path [,path ...])\n### find(path_array)\nExamples:\n\n```javascript\nfind(\'src\', \'lib\');\nfind([\'src\', \'lib\']); // same as above\nfind(\'.\').filter(function(file) { return file.match(/\\.js$/); });\n```\n\nReturns array of all files (however deep) in the given paths.\n\nThe main difference from `ls(\'-R\', path)` is that the resulting file names\ninclude the base directories, e.g. `lib/resources/file1` instead of just `file1`.\n\n\n### cp([options ,] source [,source ...], dest)\n### cp([options ,] source_array, dest)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\ncp(\'file1\', \'dir1\');\ncp(\'-Rf\', \'/tmp/*\', \'/usr/local/*\', \'/home/tmp\');\ncp(\'-Rf\', [\'/tmp/*\', \'/usr/local/*\'], \'/home/tmp\'); // same as above\n```\n\nCopies files. The wildcard `*` is accepted.\n\n\n### rm([options ,] file [, file ...])\n### rm([options ,] file_array)\nAvailable options:\n\n+ `-f`: force\n+ `-r, -R`: recursive\n\nExamples:\n\n```javascript\nrm(\'-rf\', \'/tmp/*\');\nrm(\'some_file.txt\', \'another_file.txt\');\nrm([\'some_file.txt\', \'another_file.txt\']); // same as above\n```\n\nRemoves files. The wildcard `*` is accepted.\n\n\n### mv(source [, source ...], dest\')\n### mv(source_array, dest\')\nAvailable options:\n\n+ `f`: force\n\nExamples:\n\n```javascript\nmv(\'-f\', \'file\', \'dir/\');\nmv(\'file1\', \'file2\', \'dir/\');\nmv([\'file1\', \'file2\'], \'dir/\'); // same as above\n```\n\nMoves files. The wildcard `*` is accepted.\n\n\n### mkdir([options ,] dir [, dir ...])\n### mkdir([options ,] dir_array)\nAvailable options:\n\n+ `p`: full path (will create intermediate dirs if necessary)\n\nExamples:\n\n```javascript\nmkdir(\'-p\', \'/tmp/a/b/c/d\', \'/tmp/e/f/g\');\nmkdir(\'-p\', [\'/tmp/a/b/c/d\', \'/tmp/e/f/g\']); // same as above\n```\n\nCreates directories.\n\n\n### test(expression)\nAvailable expression primaries:\n\n+ `\'-b\', \'path\'`: true if path is a block device\n+ `\'-c\', \'path\'`: true if path is a character device\n+ `\'-d\', \'path\'`: true if path is a directory\n+ `\'-e\', \'path\'`: true if path exists\n+ `\'-f\', \'path\'`: true if path is a regular file\n+ `\'-L\', \'path\'`: true if path is a symboilc link\n+ `\'-p\', \'path\'`: true if path is a pipe (FIFO)\n+ `\'-S\', \'path\'`: true if path is a socket\n\nExamples:\n\n```javascript\nif (test(\'-d\', path)) { /* do something with dir */ };\nif (!test(\'-f\', path)) continue; // skip if it\'s a regular file\n```\n\nEvaluates expression using the available primaries and returns corresponding value.\n\n\n### cat(file [, file ...])\n### cat(file_array)\n\nExamples:\n\n```javascript\nvar str = cat(\'file*.txt\');\nvar str = cat(\'file1\', \'file2\');\nvar str = cat([\'file1\', \'file2\']); // same as above\n```\n\nReturns a string containing the given file, or a concatenated string\ncontaining the files if more than one file is given (a new line character is\nintroduced between each file). Wildcard `*` accepted.\n\n\n### \'string\'.to(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').to(\'output.txt\');\n```\n\nAnalogous to the redirection operator `>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc). _Like Unix redirections, `to()` will overwrite any existing file!_\n\n\n### \'string\'.toEnd(file)\n\nExamples:\n\n```javascript\ncat(\'input.txt\').toEnd(\'output.txt\');\n```\n\nAnalogous to the redirect-and-append operator `>>` in Unix, but works with JavaScript strings (such as\nthose returned by `cat`, `grep`, etc).\n\n\n### sed([options ,] search_regex, replacement, file)\nAvailable options:\n\n+ `-i`: Replace contents of \'file\' in-place. _Note that no backups will be created!_\n\nExamples:\n\n```javascript\nsed(\'-i\', \'PROGRAM_VERSION\', \'v0.1.3\', \'source.js\');\nsed(/.*DELETE_THIS_LINE.*\\n/, \'\', \'source.js\');\n```\n\nReads an input string from `file` and performs a JavaScript `replace()` on the input\nusing the given search regex and replacement string or function. Returns the new string after replacement.\n\n\n### grep([options ,] regex_filter, file [, file ...])\n### grep([options ,] regex_filter, file_array)\nAvailable options:\n\n+ `-v`: Inverse the sense of the regex and print the lines not matching the criteria.\n\nExamples:\n\n```javascript\ngrep(\'-v\', \'GLOBAL_VARIABLE\', \'*.js\');\ngrep(\'GLOBAL_VARIABLE\', \'*.js\');\n```\n\nReads input string from given files and returns a string containing all lines of the\nfile that match the given `regex_filter`. Wildcard `*` accepted.\n\n\n### which(command)\n\nExamples:\n\n```javascript\nvar nodeExec = which(\'node\');\n```\n\nSearches for `command` in the system\'s PATH. On Windows looks for `.exe`, `.cmd`, and `.bat` extensions.\nReturns string containing the absolute path to the command.\n\n\n### echo(string [,string ...])\n\nExamples:\n\n```javascript\necho(\'hello world\');\nvar str = echo(\'hello world\');\n```\n\nPrints string to stdout, and returns string with additional utility methods\nlike `.to()`.\n\n\n### pushd([options,] [dir | \'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when adding directories to the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `dir`: Makes the current working directory be the top of the stack, and then executes the equivalent of `cd dir`.\n+ `+N`: Brings the Nth directory (counting from the left of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n+ `-N`: Brings the Nth directory (counting from the right of the list printed by dirs, starting with zero) to the top of the list by rotating the stack.\n\nExamples:\n\n```javascript\n// process.cwd() === \'/usr\'\npushd(\'/etc\'); // Returns /etc /usr\npushd(\'+1\');   // Returns /usr /etc\n```\n\nSave the current directory on the top of the directory stack and then cd to `dir`. With no arguments, pushd exchanges the top two directories. Returns an array of paths in the stack.\n\n### popd([options,] [\'-N\' | \'+N\'])\n\nAvailable options:\n\n+ `-n`: Suppresses the normal change of directory when removing directories from the stack, so that only the stack is manipulated.\n\nArguments:\n\n+ `+N`: Removes the Nth directory (counting from the left of the list printed by dirs), starting with zero.\n+ `-N`: Removes the Nth directory (counting from the right of the list printed by dirs), starting with zero.\n\nExamples:\n\n```javascript\necho(process.cwd()); // \'/usr\'\npushd(\'/etc\');       // \'/etc /usr\'\necho(process.cwd()); // \'/etc\'\npopd();              // \'/usr\'\necho(process.cwd()); // \'/usr\'\n```\n\nWhen no arguments are given, popd removes the top directory from the stack and performs a cd to the new top directory. The elements are numbered from 0 starting at the first directory listed with dirs; i.e., popd is equivalent to popd +0. Returns an array of paths in the stack.\n\n### dirs([options | \'+N\' | \'-N\'])\n\nAvailable options:\n\n+ `-c`: Clears the directory stack by deleting all of the elements.\n\nArguments:\n\n+ `+N`: Displays the Nth directory (counting from the left of the list printed by dirs when invoked without options), starting with zero.\n+ `-N`: Displays the Nth directory (counting from the right of the list printed by dirs when invoked without options), starting with zero.\n\nDisplay the list of currently remembered directories. Returns an array of paths in the stack, or a single path if +N or -N was specified.\n\nSee also: pushd, popd\n\n\n### ln(options, source, dest)\n### ln(source, dest)\nAvailable options:\n\n+ `s`: symlink\n+ `f`: force\n\nExamples:\n\n```javascript\nln(\'file\', \'newlink\');\nln(\'-sf\', \'file\', \'existing\');\n```\n\nLinks source to dest. Use -f to force the link, should dest already exist.\n\n\n### exit(code)\nExits the current process with the given exit code.\n\n### env[\'VAR_NAME\']\nObject containing environment variables (both getter and setter). Shortcut to process.env.\n\n### exec(command [, options] [, callback])\nAvailable options (all `false` by default):\n\n+ `async`: Asynchronous execution. Defaults to true if a callback is provided.\n+ `silent`: Do not echo program output to console.\n\nExamples:\n\n```javascript\nvar version = exec(\'node --version\', {silent:true}).output;\n\nvar child = exec(\'some_long_running_process\', {async:true});\nchild.stdout.on(\'data\', function(data) {\n  /* ... do something with data ... */\n});\n\nexec(\'some_long_running_process\', function(code, output) {\n  console.log(\'Exit code:\', code);\n  console.log(\'Program output:\', output);\n});\n```\n\nExecutes the given `command` _synchronously_, unless otherwise specified.\nWhen in synchronous mode returns the object `{ code:..., output:... }`, containing the program\'s\n`output` (stdout + stderr)  and its exit `code`. Otherwise returns the child process object, and\nthe `callback` gets the arguments `(code, output)`.\n\n**Note:** For long-lived processes, it\'s best to run `exec()` asynchronously as\nthe current synchronous implementation uses a lot of CPU. This should be getting\nfixed soon.\n\n\n### chmod(octal_mode || octal_string, file)\n### chmod(symbolic_mode, file)\n\nAvailable options:\n\n+ `-v`: output a diagnostic for every file processed\n+ `-c`: like verbose but report only when a change is made\n+ `-R`: change files and directories recursively\n\nExamples:\n\n```javascript\nchmod(755, \'/Users/brandon\');\nchmod(\'755\', \'/Users/brandon\'); // same as above\nchmod(\'u+x\', \'/Users/brandon\');\n```\n\nAlters the permissions of a file or directory by either specifying the\nabsolute permissions in octal form or expressing the changes in symbols.\nThis command tries to mimic the POSIX behavior as much as possible.\nNotable exceptions:\n\n+ In symbolic modes, \'a-r\' and \'-r\' are identical.  No consideration is\n  given to the umask.\n+ There is no "quiet" option since default behavior is to run silent.\n\n\n## Non-Unix commands\n\n\n### tempdir()\n\nExamples:\n\n```javascript\nvar tmp = tempdir(); // "/tmp" for most *nix platforms\n```\n\nSearches and returns string containing a writeable, platform-dependent temporary directory.\nFollows Python\'s [tempfile algorithm](http://docs.python.org/library/tempfile.html#tempfile.tempdir).\n\n\n### error()\nTests if error occurred in the last command. Returns `null` if no error occurred,\notherwise returns string explaining the error\n\n\n## Configuration\n\n\n### config.silent\nExample:\n\n```javascript\nvar silentState = config.silent; // save old silent state\nconfig.silent = true;\n/* ... */\nconfig.silent = silentState; // restore old silent state\n```\n\nSuppresses all command output if `true`, except for `echo()` calls.\nDefault is `false`.\n\n### config.fatal\nExample:\n\n```javascript\nconfig.fatal = true;\ncp(\'this_file_does_not_exist\', \'/dev/null\'); // dies here\n/* more commands... */\n```\n\nIf `true` the script will die on errors. Default is `false`.\n',
+310 silly install resolved     readmeFilename: 'README.md',
+310 silly install resolved     bugs: { url: 'https://github.com/arturadib/shelljs/issues' },
+310 silly install resolved     _id: 'shelljs@0.3.0',
+310 silly install resolved     _shasum: '3596e6307a781544f591f37da618360f31db57b1',
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/shelljs/-/shelljs-0.3.0.tgz',
+310 silly install resolved     _from: 'shelljs@>=0.3.0 <0.4.0' },
+310 silly install resolved   { name: 'gulp-rename',
+310 silly install resolved     version: '1.2.2',
+310 silly install resolved     description: 'Rename files',
+310 silly install resolved     keywords: [ 'gulpplugin' ],
+310 silly install resolved     homepage: 'https://github.com/hparra/gulp-rename',
+310 silly install resolved     bugs: { url: 'https://github.com/hparra/gulp-rename/issues' },
+310 silly install resolved     author:
+310 silly install resolved      { name: 'Hector Guillermo Parra Alvarez',
+310 silly install resolved        email: 'hector@hectorparra.com',
+310 silly install resolved        url: 'https://github.com/hparra' },
+310 silly install resolved     main: './index.js',
+310 silly install resolved     files: [ 'index.js' ],
+310 silly install resolved     repository: { type: 'git', url: 'git://github.com/hparra/gulp-rename.git' },
+310 silly install resolved     scripts: { pretest: 'jshint index.js test/', test: 'mocha' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { gulp: '>=3.0.0',
+310 silly install resolved        'gulp-sourcemaps': '^1.5.0',
+310 silly install resolved        'gulp-util': '^3.0.4',
+310 silly install resolved        jshint: '^2.6.3',
+310 silly install resolved        'map-stream': '>=0.0.4',
+310 silly install resolved        mocha: '>=1.15.0',
+310 silly install resolved        should: '>=2.1.0' },
+310 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+310 silly install resolved     licenses: [ [Object] ],
+310 silly install resolved     gitHead: 'e1fb4e41dd107b38e96f1156fcbee70ebcf16fb6',
+310 silly install resolved     _id: 'gulp-rename@1.2.2',
+310 silly install resolved     _shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+310 silly install resolved     _from: 'gulp-rename@>=1.2.0 <2.0.0',
+310 silly install resolved     _npmVersion: '1.4.28',
+310 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+310 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+310 silly install resolved   { name: 'gulp-util',
+310 silly install resolved     description: 'Utility functions for gulp plugins',
+310 silly install resolved     version: '2.2.20',
+310 silly install resolved     homepage: 'http://github.com/wearefractal/gulp-util',
+310 silly install resolved     repository:
+310 silly install resolved      { type: 'git',
+310 silly install resolved        url: 'git://github.com/wearefractal/gulp-util.git' },
+310 silly install resolved     author:
+310 silly install resolved      { name: 'Fractal',
+310 silly install resolved        email: 'contact@wearefractal.com',
+310 silly install resolved        url: 'http://wearefractal.com/' },
+310 silly install resolved     main: './index.js',
+310 silly install resolved     dependencies:
+310 silly install resolved      { chalk: '^0.5.0',
+310 silly install resolved        dateformat: '^1.0.7-1.2.3',
+310 silly install resolved        'lodash._reinterpolate': '^2.4.1',
+310 silly install resolved        'lodash.template': '^2.4.1',
+310 silly install resolved        minimist: '^0.2.0',
+310 silly install resolved        multipipe: '^0.1.0',
+310 silly install resolved        through2: '^0.5.0',
+310 silly install resolved        vinyl: '^0.2.1' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { mocha: '^1.17.0',
+310 silly install resolved        should: '^4.0.0',
+310 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+310 silly install resolved        coveralls: '^2.7.0',
+310 silly install resolved        istanbul: '^0.2.3',
+310 silly install resolved        rimraf: '^2.2.5',
+310 silly install resolved        jshint: '^2.4.1',
+310 silly install resolved        'buffer-equal': '~0.0.1',
+310 silly install resolved        'lodash.templatesettings': '^2.4.1',
+310 silly install resolved        'event-stream': '^3.1.0' },
+310 silly install resolved     scripts:
+310 silly install resolved      { test: 'mocha --reporter spec && jshint',
+310 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+310 silly install resolved     engines: { node: '>= 0.9' },
+310 silly install resolved     licenses: [ [Object] ],
+310 silly install resolved     gitHead: 'a44e450cfbe65fa4902b198bead4c65722cced0a',
+310 silly install resolved     bugs: { url: 'https://github.com/wearefractal/gulp-util/issues' },
+310 silly install resolved     _id: 'gulp-util@2.2.20',
+310 silly install resolved     _shasum: 'd7146e5728910bd8f047a6b0b1e549bc22dbd64c',
+310 silly install resolved     _from: 'gulp-util@>=2.2.14 <3.0.0',
+310 silly install resolved     _npmVersion: '1.5.0-alpha-1',
+310 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+310 silly install resolved     maintainers: [ [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: 'd7146e5728910bd8f047a6b0b1e549bc22dbd64c',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-util/-/gulp-util-2.2.20.tgz' },
+310 silly install resolved   { name: 'gulp-sass',
+310 silly install resolved     version: '2.1.0',
+310 silly install resolved     description: 'Gulp plugin for sass',
+310 silly install resolved     main: 'index.js',
+310 silly install resolved     scripts: { test: 'mocha test' },
+310 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+310 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+310 silly install resolved     author: { name: 'David Manning' },
+310 silly install resolved     license: 'MIT',
+310 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+310 silly install resolved     dependencies:
+310 silly install resolved      { 'gulp-util': '^3.0',
+310 silly install resolved        'node-sass': '^3.4.1',
+310 silly install resolved        'object-assign': '^4.0.1',
+310 silly install resolved        through2: '^2.0.0',
+310 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { 'autoprefixer-core': '^5.2.1',
+310 silly install resolved        eslint: '^1.6.0',
+310 silly install resolved        globule: '^0.2.0',
+310 silly install resolved        gulp: '^3.8.11',
+310 silly install resolved        'gulp-postcss': '^5.1.10',
+310 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+310 silly install resolved        'gulp-tap': '^0.1.3',
+310 silly install resolved        mocha: '^2.2.1',
+310 silly install resolved        rimraf: '^2.4.3',
+310 silly install resolved        should: '^7.1.0' },
+310 silly install resolved     gitHead: '5787925539b491533c87c1a75e8ada1812c54a40',
+310 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+310 silly install resolved     _id: 'gulp-sass@2.1.0',
+310 silly install resolved     _shasum: '2587bc535d8b508bc10f4e2cf35f01185737d80b',
+310 silly install resolved     _from: 'gulp-sass@>=2.0.4 <3.0.0',
+310 silly install resolved     _npmVersion: '2.13.2',
+310 silly install resolved     _nodeVersion: '2.5.0',
+310 silly install resolved     _npmUser: { name: 'xzyfer', email: 'xzyfer@gmail.com' },
+310 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: '2587bc535d8b508bc10f4e2cf35f01185737d80b',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.1.0.tgz' },
+310 silly install resolved   { name: 'gulp-concat',
+310 silly install resolved     description: 'Concatenates files',
+310 silly install resolved     version: '2.6.0',
+310 silly install resolved     repository:
+310 silly install resolved      { type: 'git',
+310 silly install resolved        url: 'git+https://github.com/wearefractal/gulp-concat.git' },
+310 silly install resolved     author:
+310 silly install resolved      { name: 'Fractal',
+310 silly install resolved        email: 'contact@wearefractal.com',
+310 silly install resolved        url: 'http://wearefractal.com/' },
+310 silly install resolved     files: [ 'index.js' ],
+310 silly install resolved     keywords: [ 'gulpplugin' ],
+310 silly install resolved     dependencies:
+310 silly install resolved      { 'concat-with-sourcemaps': '^1.0.0',
+310 silly install resolved        'gulp-util': '^3.0.1',
+310 silly install resolved        through2: '^0.6.3' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { gulp: '^3.8.7',
+310 silly install resolved        'gulp-sourcemaps': '^1.1.4',
+310 silly install resolved        istanbul: '^0.3.2',
+310 silly install resolved        mocha: '^2.0.1',
+310 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+310 silly install resolved        should: '^5.0.0',
+310 silly install resolved        'stream-array': '^1.0.1',
+310 silly install resolved        'stream-assert': '^2.0.1' },
+310 silly install resolved     scripts: { test: 'mocha', coverage: 'istanbul cover _mocha' },
+310 silly install resolved     engines: { node: '>= 0.10' },
+310 silly install resolved     license: 'MIT',
+310 silly install resolved     gitHead: '48e757a90687a8c5bca9d2945285ac0689aa7023',
+310 silly install resolved     bugs: { url: 'https://github.com/wearefractal/gulp-concat/issues' },
+310 silly install resolved     homepage: 'https://github.com/wearefractal/gulp-concat#readme',
+310 silly install resolved     _id: 'gulp-concat@2.6.0',
+310 silly install resolved     _shasum: '585cfb115411f348773131140566b6a81c69cb91',
+310 silly install resolved     _from: 'gulp-concat@>=2.2.0 <3.0.0',
+310 silly install resolved     _npmVersion: '2.10.0',
+310 silly install resolved     _nodeVersion: '2.0.1',
+310 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+310 silly install resolved     maintainers: [ [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: '585cfb115411f348773131140566b6a81c69cb91',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-concat/-/gulp-concat-2.6.0.tgz' },
+310 silly install resolved   { name: 'gulp-minify-css',
+310 silly install resolved     description: 'Minify css with clean-css.',
+310 silly install resolved     version: '0.3.13',
+310 silly install resolved     repository:
+310 silly install resolved      { type: 'git',
+310 silly install resolved        url: 'https://github.com/jonathanepollack/gulp-minify-css.git' },
+310 silly install resolved     homepage: 'https://github.com/jonathanepollack/gulp-minify-css',
+310 silly install resolved     keywords: [ 'gulpplugin', 'minify', 'css' ],
+310 silly install resolved     main: './index.js',
+310 silly install resolved     engines: { node: '>= 0.10' },
+310 silly install resolved     scripts: { test: 'mocha' },
+310 silly install resolved     dependencies:
+310 silly install resolved      { 'gulp-util': '~3.0.1',
+310 silly install resolved        'clean-css': '~3.0.4',
+310 silly install resolved        through2: '^0.6.1',
+310 silly install resolved        bufferstreams: '0.0.2',
+310 silly install resolved        'memory-cache': '0.0.5',
+310 silly install resolved        'vinyl-sourcemaps-apply': '^0.1.4' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { mocha: '^1.21.4',
+310 silly install resolved        chai: '^1.9.0',
+310 silly install resolved        gulp: '^3.8.8',
+310 silly install resolved        'gulp-sourcemaps': '^1.3.0',
+310 silly install resolved        proxyquire: '^1.0.1',
+310 silly install resolved        'event-stream': '^3.1.0' },
+310 silly install resolved     licenses: [ [Object] ],
+310 silly install resolved     gitHead: 'e8dc2186b632e4696ed5b1dfa50ad597b815a0dd',
+310 silly install resolved     bugs: { url: 'https://github.com/jonathanepollack/gulp-minify-css/issues' },
+310 silly install resolved     _id: 'gulp-minify-css@0.3.13',
+310 silly install resolved     _shasum: 'ba813c665422868305383ccd185f239c1e35209b',
+310 silly install resolved     _from: 'gulp-minify-css@>=0.3.0 <0.4.0',
+310 silly install resolved     _npmVersion: '2.0.0',
+310 silly install resolved     _npmUser:
+310 silly install resolved      { name: 'jonathanepollack',
+310 silly install resolved        email: 'jonathanepollack@gmail.com' },
+310 silly install resolved     maintainers: [ [Object] ],
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: 'ba813c665422868305383ccd185f239c1e35209b',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz' },
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-0.3.13.tgz' },
+310 silly install resolved   { name: 'bower',
+310 silly install resolved     version: '1.6.5',
+310 silly install resolved     description: 'The browser package manager',
+310 silly install resolved     author: { name: 'Twitter' },
+310 silly install resolved     license: 'MIT',
+310 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/bower/bower.git' },
+310 silly install resolved     main: 'lib',
+310 silly install resolved     homepage: 'http://bower.io',
+310 silly install resolved     engines: { node: '>=0.10.0' },
+310 silly install resolved     keywords: [ 'bower' ],
+310 silly install resolved     dependencies:
+310 silly install resolved      { abbrev: '^1.0.5',
+310 silly install resolved        archy: '1.0.0',
+310 silly install resolved        'bower-config': '^1.2.2',
+310 silly install resolved        'bower-endpoint-parser': '^0.2.2',
+310 silly install resolved        'bower-json': '^0.4.0',
+310 silly install resolved        'bower-logger': '^0.2.2',
+310 silly install resolved        'bower-registry-client': '^1.0.0',
+310 silly install resolved        cardinal: '0.4.4',
+310 silly install resolved        chalk: '^1.0.0',
+310 silly install resolved        chmodr: '^1.0.2',
+310 silly install resolved        configstore: '^0.3.2',
+310 silly install resolved        'decompress-zip': '^0.1.0',
+310 silly install resolved        destroy: '^1.0.3',
+310 silly install resolved        'fs-write-stream-atomic': '^1.0.4',
+310 silly install resolved        fstream: '^1.0.3',
+310 silly install resolved        'fstream-ignore': '^1.0.2',
+310 silly install resolved        github: '^0.2.3',
+310 silly install resolved        glob: '^4.3.2',
+310 silly install resolved        'graceful-fs': '^3.0.5',
+310 silly install resolved        handlebars: '^2.0.0',
+310 silly install resolved        inquirer: '0.10.0',
+310 silly install resolved        insight: '^0.7.0',
+310 silly install resolved        'is-root': '^1.0.0',
+310 silly install resolved        junk: '^1.0.0',
+310 silly install resolved        lockfile: '^1.0.0',
+310 silly install resolved        'lru-cache': '^2.5.0',
+310 silly install resolved        'md5-hex': '^1.0.2',
+310 silly install resolved        mkdirp: '0.5.0',
+310 silly install resolved        mout: '^0.11.0',
+310 silly install resolved        nopt: '^3.0.1',
+310 silly install resolved        opn: '^1.0.1',
+310 silly install resolved        'p-throttler': '0.1.1',
+310 silly install resolved        promptly: '0.2.0',
+310 silly install resolved        q: '^1.1.2',
+310 silly install resolved        request: '2.53.0',
+310 silly install resolved        'request-progress': '0.3.1',
+310 silly install resolved        retry: '0.6.1',
+310 silly install resolved        rimraf: '^2.2.8',
+310 silly install resolved        semver: '^2.3.0',
+310 silly install resolved        'shell-quote': '^1.4.2',
+310 silly install resolved        'stringify-object': '^1.0.0',
+310 silly install resolved        'tar-fs': '^1.4.1',
+310 silly install resolved        tmp: '0.0.24',
+310 silly install resolved        'update-notifier': '^0.3.0',
+310 silly install resolved        'user-home': '^1.1.0',
+310 silly install resolved        which: '^1.0.8' },
+310 silly install resolved     devDependencies:
+310 silly install resolved      { chai: '^1.10.0',
+310 silly install resolved        coveralls: '^2.11.2',
+310 silly install resolved        'expect.js': '^0.3.1',
+310 silly install resolved        grunt: '^0.4.5',
+310 silly install resolved        'grunt-cli': '^0.1.13',
+310 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+310 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+310 silly install resolved        'grunt-exec': '^0.4.6',
+310 silly install resolved        'grunt-simple-mocha': '^0.4.0',
+310 silly install resolved        istanbul: '^0.3.5',
+310 silly install resolved        'load-grunt-tasks': '^2.0.0',
+310 silly install resolved        mocha: '^2.1.0',
+310 silly install resolved        multiline: '^1.0.2',
+310 silly install resolved        nock: '^2.13.0',
+310 silly install resolved        'node-uuid': '^1.4.2',
+310 silly install resolved        'npm-shrinkwrap': '^5.4.1',
+310 silly install resolved        proxyquire: '^1.3.0',
+310 silly install resolved        'spawn-sync': '^1.0.5' },
+310 silly install resolved     scripts: { test: 'grunt test' },
+310 silly install resolved     bin: { bower: 'bin/bower' },
+310 silly install resolved     files: [ 'bin', 'lib', 'templates' ],
+310 silly install resolved     gitHead: 'a022cdc75ee0693af813a87b40f5de4c74b7baae',
+310 silly install resolved     bugs: { url: 'https://github.com/bower/bower/issues' },
+310 silly install resolved     bundleDependencies:
+310 silly install resolved      [ 'abbrev',
+310 silly install resolved        'archy',
+310 silly install resolved        'bower-config',
+310 silly install resolved        'bower-endpoint-parser',
+310 silly install resolved        'bower-json',
+310 silly install resolved        'bower-logger',
+310 silly install resolved        'bower-registry-client',
+310 silly install resolved        'cardinal',
+310 silly install resolved        'chalk',
+310 silly install resolved        'chmodr',
+310 silly install resolved        'configstore',
+310 silly install resolved        'decompress-zip',
+310 silly install resolved        'destroy',
+310 silly install resolved        'fs-write-stream-atomic',
+310 silly install resolved        'fstream',
+310 silly install resolved        'fstream-ignore',
+310 silly install resolved        'github',
+310 silly install resolved        'glob',
+310 silly install resolved        'graceful-fs',
+310 silly install resolved        'handlebars',
+310 silly install resolved        'inquirer',
+310 silly install resolved        'insight',
+310 silly install resolved        'is-root',
+310 silly install resolved        'junk',
+310 silly install resolved        'lockfile',
+310 silly install resolved        'lru-cache',
+310 silly install resolved        'md5-hex',
+310 silly install resolved        'mkdirp',
+310 silly install resolved        'mout',
+310 silly install resolved        'nopt',
+310 silly install resolved        'opn',
+310 silly install resolved        'p-throttler',
+310 silly install resolved        'promptly',
+310 silly install resolved        'q',
+310 silly install resolved        'request',
+310 silly install resolved        'request-progress',
+310 silly install resolved        'retry',
+310 silly install resolved        'rimraf',
+310 silly install resolved        'semver',
+310 silly install resolved        'shell-quote',
+310 silly install resolved        'stringify-object',
+310 silly install resolved        'tar-fs',
+310 silly install resolved        'tmp',
+310 silly install resolved        'update-notifier',
+310 silly install resolved        'user-home',
+310 silly install resolved        'which' ],
+310 silly install resolved     _id: 'bower@1.6.5',
+310 silly install resolved     _shasum: '59d457122a161e42cc1625bbab8179c214b7ac11',
+310 silly install resolved     _from: 'bower@>=1.3.3 <2.0.0',
+310 silly install resolved     _npmVersion: '2.14.8',
+310 silly install resolved     _nodeVersion: '4.1.1',
+310 silly install resolved     _npmUser: { name: 'sheerun', email: 'sheerun@sher.pl' },
+310 silly install resolved     dist:
+310 silly install resolved      { shasum: '59d457122a161e42cc1625bbab8179c214b7ac11',
+310 silly install resolved        tarball: 'http://registry.npmjs.org/bower/-/bower-1.6.5.tgz' },
+310 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+310 silly install resolved     directories: {},
+310 silly install resolved     _resolved: 'https://registry.npmjs.org/bower/-/bower-1.6.5.tgz' } ]
+311 info install gulp@3.9.0 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+312 info install shelljs@0.3.0 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+313 info install gulp-rename@1.2.2 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+314 info install gulp-util@2.2.20 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+315 info install gulp-sass@2.1.0 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+316 info install gulp-concat@2.6.0 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+317 info install gulp-minify-css@0.3.13 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+318 info install bower@1.6.5 into /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+319 info installOne gulp@3.9.0
+320 verbose installOne of gulp to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+321 info installOne shelljs@0.3.0
+322 verbose installOne of shelljs to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+323 info installOne gulp-rename@1.2.2
+324 verbose installOne of gulp-rename to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+325 info installOne gulp-util@2.2.20
+326 verbose installOne of gulp-util to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+327 info installOne gulp-sass@2.1.0
+328 verbose installOne of gulp-sass to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+329 info installOne gulp-concat@2.6.0
+330 verbose installOne of gulp-concat to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+331 info installOne gulp-minify-css@0.3.13
+332 verbose installOne of gulp-minify-css to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+333 info installOne bower@1.6.5
+334 verbose installOne of bower to /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm not in flight; installing
+335 warn locking Error: EACCES, open '/Users/kariball/.npm/_locks/gulp-e355927ce59fe50d.lock'
+335 warn locking     at Error (native)
+335 warn locking  /Users/kariball/.npm/_locks/gulp-e355927ce59fe50d.lock failed { [Error: EACCES, open '/Users/kariball/.npm/_locks/gulp-e355927ce59fe50d.lock']
+335 warn locking   errno: -13,
+335 warn locking   code: 'EACCES',
+335 warn locking   path: '/Users/kariball/.npm/_locks/gulp-e355927ce59fe50d.lock' }
+336 verbose stack Error: Attempt to unlock /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm/node_modules/gulp, which hasn't been locked
+336 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+336 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+336 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+336 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+336 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+336 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+336 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+337 verbose cwd /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm
+338 error Darwin 14.5.0
+339 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+340 error node v0.12.2
+341 error npm  v2.7.4
+342 error Attempt to unlock /Users/kariball/Documents/Algonquin College/Semester 3/Developing HTML5 Mobile Apps/ionic-midterm/node_modules/gulp, which hasn't been locked
+343 error If you need help, you may report this error at:
+343 error     <https://github.com/npm/npm/issues>
+344 verbose exit [ 1, true ]

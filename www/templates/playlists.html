@@ -1,0 +1,19 @@
+<ion-view view-title="Playlists">
+    <ion-content class="content">
+        <form class="item-input form" ng-submit="submitForm(userForm.$valid)" name="userForm" novalidate>
+            <input type="text" ng-model="$parent.newPlaylist" placeholder="New playlist..." required />
+            <button type="submit" class="button ion-plus-round custom-add"></button>
+        </form>
+        <ion-list>
+            <ion-item class="item item-checkbox animate-repeat ng-leave" ng-repeat="playlist in playlists track by $index" ng-swipe-right="deleteItem(playlist)">
+                <label class="checkbox checkbox-energized">
+                    <input type="checkbox" ng-model="playlist.isChecked" ng-change="setChecked($index)" />
+                </label>
+                <span ng-class="{strike: playlist.isChecked}">{{playlist.text}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="custom-delete">
+        <button ng-disabled="!isChecked()" ng-click="delete(playlist)" class="button button-clear custom-delete">Remove {{deleteAllSelected()}} of {{playlists.length}} playlists</button>
+    </ion-footer-bar>
+</ion-view>
